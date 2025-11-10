@@ -13,7 +13,7 @@ export function middleware(request) {
 
   for (const key in domainMap) {
     // Match both .localhost and .com (and any port)
-    if (host.includes(`${key}.localhost`) || host.includes(`${key}.com`)) {
+    if (host.includes(`${key}.52.66.139.69`) || host.includes(`${key}.com`)) {
       url.pathname = domainMap[key];
       return NextResponse.rewrite(url);
     }
