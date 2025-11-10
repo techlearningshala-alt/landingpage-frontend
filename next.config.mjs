@@ -4,7 +4,7 @@ const nextConfig = {
   reactCompiler: true,
   reactStrictMode: false,
   images: {
-    domains: ['localhost'],
+    domains: ['65.0.110.199'],
   },
 };
 

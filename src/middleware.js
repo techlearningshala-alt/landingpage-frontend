@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server';
 
 // map domains to their landing pages
 const domainMap = {
-  'onlinemanipal': '/landing-manipal',
-  'onlineignou': '/landing-ignou',
+  'edusprinthub.com': '/landing-manipal',
+  // 'onlineignou': '/landing-ignou',
 };
 
 export function middleware(request) {
