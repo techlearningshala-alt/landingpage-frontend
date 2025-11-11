@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 
-const Banner = ({ landingPageData }) => {
+const Banner = () => {
   return (
     <section className="py-32">
       <div className="container">
@@ -14,10 +14,10 @@ const Banner = ({ landingPageData }) => {
               <ArrowUpRight className="ml-2 size-4" />
             </Badge>
             <h1 className="my-6 text-pretty text-4xl font-bold lg:text-5xl">
-              {landingPageData?.bannerTitle}
+             Online Manipal
             </h1>
             <p className="text-muted-foreground mb-8 max-w-xl lg:text-md">
-              {landingPageData?.bannerDescription}
+              Online Manipal is a platform for online learning.
             </p>
             <div className="flex mb-4 w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
               <Button asChild className="w-full sm:w-auto">
@@ -31,12 +31,12 @@ const Banner = ({ landingPageData }) => {
               </Button>
             </div>
             <p className="text-muted-foreground mb-8 max-w-xl lg:text-md">
-              {landingPageData?.admissionClosingDescription}
+              Admission Closing In 5 Days
             </p>
           </div>
 
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_URL}${landingPageData?.bannerImage?.url}`}
+            src={`/Frontbanner.jpg`}
             alt="image"
             className="w-full h-full object-cover rounded-md"
           />
