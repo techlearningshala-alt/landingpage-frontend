@@ -5,7 +5,7 @@ import React from "react";
 export async function getStaticProps() {
   const domainSlug = "studybettertoday";
   const landingPageData = await getLandingPageData(domainSlug).then(
-    (response) => response?.data
+    (response) => response?.data?.data
   );
   return {
     props: {
