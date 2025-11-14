@@ -18,7 +18,7 @@ const LandingEdusprinthub = ({landingPageData}) => {
   console.log(landingPageData, "landingPageData");
   return (
     <div>
-      <p>edusprinthub landing page</p>
+      <p>edusprinthub landing pages</p>
       <Banner />
     </div>
   );

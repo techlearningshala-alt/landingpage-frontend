@@ -18,7 +18,7 @@ const LandingStudyBetterToday = () => {
   // console.log(landingPageData, "landingPageData");
   return (
     <div>
-      <p>studybettertoday landing page</p>
+      <p>studybettertoday landing pages</p>
       <Banner />
     </div>
   );
