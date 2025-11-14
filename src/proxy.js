@@ -17,7 +17,8 @@ export function proxy(request) {
       host === domain || 
       host.startsWith(`${domain}:`) || 
       host.includes(`${domain}.localhost`) ||
-      host.includes(`${domain}.13.203.144.7`)
+      host.includes(`${domain}.13.203.144.7`) ||
+      host.includes(`${domain}.13.203.144.7:1337`)
     ) {
       url.pathname = domainMap[domain];
       return NextResponse.rewrite(url);
